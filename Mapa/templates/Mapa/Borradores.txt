@@ -1,0 +1,40 @@
+Cosas que no funcionaron pero podrian ser utiles        
+        
+        
+        #strData = json.dumps(bigData)
+        # data.write(strData)
+        """for x in blockmap:
+        data.write(x)"""
+        # print(getcwd())
+        """test = request.POST.get('move')
+        # print(test)
+        blockMap = open('Mapa/templates/Mapa/blockMap.html', 'r')
+        
+        # file = open('Mapa/templates/Mapa/aux.html', 'w')
+        # file.write("")
+        # file.close()
+        
+        # file = open('Mapa/templates/Mapa/aux.html', 'a')
+        for x in blockMap:
+            if (len(x.split()) == 9):
+                bor = x.split()
+                row = bor[8]
+                row = row[:2]
+                column = bor[7]
+                column = column[-2:]
+                print(row)
+                print(column)
+                bor = bor[4]
+                if(len(bor) == 6):
+                    bor = bor[:5]
+                elif(len(bor) == 5):
+                    bor = bor[:4]
+                print(bor)
+            # file.write(x)
+            file.write(x)
+        # print(x)
+        blockMap.close()
+        # file.close()
+        return render(request, 'Mapa/blockMap.html')"""
+    # file.close()
+    # return render(request, 'Mapa/blockMap.html')"""

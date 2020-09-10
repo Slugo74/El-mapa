@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>¡Bienvenido al mapa!</title>
+    </head>
+    <meta charset="utf-8">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'Mapa/mapStyle.css' %}">
+    <body>
+        <center><table id="main">
+            <tbody>
+                <tr>
+                    <td class = ' col0 bor10 ' id = ' 1 '></td>
+                    <td class = ' col0 ' id = ' 2 '></td>
+                    <td class = ' col0 ' id = ' 3 '></td>
+                    <td class = ' col0 ' id = ' 4 '></td>
+                    <td class = ' col0 ' id = ' 5 '></td>
+                    <td class = ' col0 ' id = ' 6 '></td>
+                </tr>
+                <tr>
+                    <td class = ' col0 ' id = ' 7 '></td>
+                    <td class = ' col0 ' id = ' 8 '></td>
+                    <td class = ' col0 ' id = ' 9 '></td>
+                    <td class = ' col0 ' id = ' 10 '></td>
+                    <td class = ' col0 ' id = ' 11 '></td>
+                    <td class = ' col0 ' id = ' 12 '></td>
+                </tr>
+                <tr>
+                    <td class = ' col0 ' id = ' 13 '></td>
+                    <td class = ' col0 ' id = ' 14 '></td>
+                    <td class = ' col0 ' id = ' 15 '></td>
+                    <td class = ' col0 ' id = ' 16 '></td>
+                    <td class = ' col0 ' id = ' 17 '></td>
+                    <td class = ' col0 ' id = ' 18 '></td>
+                </tr>
+                <tr>
+                    <td class = ' col0 ' id = ' 19 '></td>
+                    <td class = ' col0 ' id = ' 20 '></td>
+                    <td class = ' col0 ' id = ' 21 '></td>
+                    <td class = ' col0 ' id = ' 22 '></td>
+                    <td class = ' col0 ' id = ' 23 '></td>
+                    <td class = ' col0 ' id = ' 24 '></td>
+                </tr>
+                <tr>
+                    <td class = ' col0 ' id = ' 25 '></td>
+                    <td class = ' col0 ' id = ' 26 '></td>
+                    <td class = ' col0 ' id = ' 27 '></td>
+                    <td class = ' col0 ' id = ' 28 '></td>
+                    <td class = ' col0 ' id = ' 29 '></td>
+                    <td class = ' col0 ' id = ' 30 '></td>
+                </tr>
+                <tr>
+                    <td class = ' col0 ' id = ' 31 '></td>
+                    <td class = ' col0 ' id = ' 32 '></td>
+                    <td class = ' col0 ' id = ' 33 '></td>
+                    <td class = ' col0 ' id = ' 34 '></td>
+                    <td class = ' col0 ' id = ' 35 '></td>
+                    <td class = ' col0 ' id = ' 36 '></td>
+                </tr>
+            </tbody>
+        </table></center>
+        <form method = "POST">
+            <div id="moves">
+                <center><h3> move </h3></center>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" name="move" value="W"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="move" value="A"></td>
+                            <td><input type="submit" name="move" value="X" id="plcol"></td>
+                            <td><input type="submit" name="move" value="D"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" name="move" value="S"></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <h2> pos: 0, 0</h2>
+            </div>
+            <div id="colors">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><input type="submit" name="color" class="col0" value="0"></td>
+                            <td><input type="submit" name="color" class="col1" value="1"></td>
+                            <td><input type="submit" name="color" class="col2" value="2"></td>
+                            <td><input type="submit" name="color" class="col3" value="3"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="color" class="col4" value="4"></td>
+                            <td><input type="submit" name="color" class="col5" value="5"></td>
+                            <td><input type="submit" name="color" class="col6" value="6"></td>
+                            <td><input type="submit" name="color" class="col7" value="7"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="color" class="col8" value="8"></td>
+                            <td><input type="submit" name="color" class="col9" value="9"></td>
+                            <td><input type="submit" name="color" class="col10" value="10"></td>
+                            <td><input type="submit" name="color" class="col11" value="11"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="color" class="col12" value="12"></td>
+                            <td><input type="submit" name="color" class="col13" value="13"></td>
+                            <td><input type="submit" name="color" class="col14" value="14"></td>
+                            <td><input type="submit" name="color" class="col15" value="15"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </body>
+</html>

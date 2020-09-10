@@ -1,0 +1,54 @@
+html, body {
+    background-color: #444;
+    color: white;
+}
+
+input[type=submit] {
+    width: 32px;
+    height: 32px;
+}
+td {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    outline: 2px dotted transparent;
+
+}
+
+#moves, #colors, #datas {
+    float: left;
+    margin-left: 3em;
+}
+
+.col0 { color: #000000; background: #000000; }
+.bor0 { outline: dotted 2px #000000;}
+.col1 { color: #1D2B53; background: #1D2B53; }
+.bor1 { outline: dotted 2px #1D2B53;}
+.col2 { color: #7E2553; background: #7E2553; }
+.bor2 { outline: dotted 2px #7E2553;}
+.col3 { color: #008751; background: #008751; }
+.bor3 { outline: dotted 2px #008751;}
+.col4 { color: #AB5236; background: #AB5236; }
+.bor4 { outline: dotted 2px #AB5236;}
+.col5 { color: #5F574F; background: #5F574F; }
+.bor5 { outline: dotted 2px #5F574F;}
+.col6 { color: #C2C3C7; background: #C2C3C7; }
+.bor6 { outline: dotted 2px #C2C3C7;}
+.col7 { color: #FFF1E8; background: #FFF1E8; }
+.bor7 { outline: dotted 2px #FFF1E8;}
+.col8 { color: #FF004D; background: #FF004D; }
+.bor8 { outline: dotted 2px #FF004D;}
+.col9 { color: #FFA300; background: #FFA300; }
+.bor9 { outline: dotted 2px #FFA300;}
+.col10 { color: #FFEC27; background: #FFEC27; }
+.bor10 { outline: dotted 2px #FFEC27;}
+.col11 { color: #00E436; background: #00E436; }
+.bor11 { outline: dotted 2px #00E436;}
+.col12 { color: #29ADFF; background: #29ADFF; }
+.bor12 { outline: dotted 2px #29ADFF;}
+.col13 { color: #83769C; background: #83769C; }
+.bor13 { outline: dotted 2px #83769C;}
+.col14 { color: #FF77A8; background: #FF77A8; }
+.bor14 { outline: dotted 2px #FF77A8;}
+.col15 { color: #FFCCAA; background: #FFCCAA; }
+.bor15 { outline: dotted 2px #FFCCAA;}

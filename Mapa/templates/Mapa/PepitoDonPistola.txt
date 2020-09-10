@@ -1,0 +1,1 @@
+{"colorLine": "                    <td class = ' col0 bor10 ' id = ' 1 '></td>", "color": "col0", "bordered": "bor10 ", "lineId": 1, "btColor": "col10"}
